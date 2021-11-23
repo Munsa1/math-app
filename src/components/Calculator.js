@@ -16,29 +16,29 @@ class Calculator extends React.Component {
         </div>
         <div className="keyboard">
           <div className="key-digits">
-            <CalcButton text="AC" />
-            <CalcButton text="+/-" />
-            <CalcButton text="%" />
-            <CalcButton text="7" />
-            <CalcButton text="8" />
-            <CalcButton text="9" />
-            <CalcButton text="4" />
-            <CalcButton text="5" />
-            <CalcButton text="6" />
-            <CalcButton text="1" />
-            <CalcButton text="2" />
-            <CalcButton text="3" />
-            <CalcButton text="0" />
+            <CalculatorBtn text="AC" />
+            <CalculatorBtn text="+/-" />
+            <CalculatorBtn text="%" />
+            <CalculatorBtn text="7" />
+            <CalculatorBtn text="8" />
+            <CalculatorBtn text="9" />
+            <CalculatorBtn text="4" />
+            <CalculatorBtn text="5" />
+            <CalculatorBtn text="6" />
+            <CalculatorBtn text="1" />
+            <CalculatorBtn text="2" />
+            <CalculatorBtn text="3" />
+            <CalculatorBtn text="0" />
             <div className="key-dot">
-              <CalcButton text="." />
+              <CalculatorBtn text="." />
             </div>
           </div>
           <div className="operators">
-            <CalcButton text="÷" />
-            <CalcButton text="x" />
-            <CalcButton text="-" />
-            <CalcButton text="+" />
-            <CalcButton text="=" />
+            <CalculatorBtn text="÷" />
+            <CalculatorBtn text="x" />
+            <CalculatorBtn text="-" />
+            <CalculatorBtn text="+" />
+            <CalculatorBtn text="=" />
           </div>
         </div>
       </div>
