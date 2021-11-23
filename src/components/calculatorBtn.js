@@ -14,3 +14,9 @@ class CalculatorBtn extends React.Component {
     );
   }
 }
+
+CalcButton.propTypes = {
+  text: PropTypes.string.isRequired,
+};
+
+export default CalculatorBtn;
