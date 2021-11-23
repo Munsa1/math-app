@@ -6,3 +6,11 @@ class CalculatorBtn extends React.Component {
     super(props);
     this.state = {};
   }
+
+  render() {
+    const { text } = this.props;
+    return (
+      <button type="button" className="calc-buttons">{text}</button>
+    );
+  }
+}
