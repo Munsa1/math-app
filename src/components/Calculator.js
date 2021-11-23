@@ -1,5 +1,5 @@
 import React from 'react';
-//eslint-disable-next-line
+// eslint-disable-next-line
 import CalculatorBtn from './CalculatorBtn';
 
 class Calculator extends React.Component {
