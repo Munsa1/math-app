@@ -1,5 +1,5 @@
+import CalculatorBtn from './CalculatorBtn';
 import React from 'react';
-import CalculatorBtn from './CalculatorBtn.js';
 
 class Calculator extends React.Component {
   constructor(props) {
