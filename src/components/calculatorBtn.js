@@ -1,5 +1,5 @@
-import React from "react";
-import Prop-types from 'prop-types';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 class CalculatorBtn extends React.Component {
   constructor(props) {
@@ -15,7 +15,7 @@ class CalculatorBtn extends React.Component {
   }
 }
 
-CalcButton.propTypes = {
+CalculatorBtn.propTypes = {
   text: PropTypes.string.isRequired,
 };
 
