@@ -1,6 +1,7 @@
 import React from 'react';
 // eslint-disable-next-line
 import CalculatorBtn from './CalculatorBtn';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
