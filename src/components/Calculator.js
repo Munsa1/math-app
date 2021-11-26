@@ -12,6 +12,15 @@ const Calculator = () => {
     this.setState({ calcObj: calculate(calcObj, text) });
   }
 
+  this.state = {
+    calcObj: {},
+  };
+  this.handleCalculate = this.handleCalculate.bind(this);
+}
+
+handleCalculate(calcObj) {
+  this.setState({ calcObj: calculate(calcObj) });
+
   render() {
     const { calcObj } = this.state;
 
