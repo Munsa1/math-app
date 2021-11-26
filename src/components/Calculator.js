@@ -31,19 +31,19 @@ const Calculator = () => {
       </div>
       <div className="keyboard">
         <div className="key-digits">
-          <CalcButton text="AC" onClick={handleCalculate} mathObj={calcObj} />
-          <CalcButton text="+/-" onClick={handleCalculate} mathObj={calcObj} />
-          <CalcButton text="%" onClick={handleCalculate} mathObj={calcObj} />
-          <CalcButton text="7" onClick={handleCalculate} mathObj={calcObj} />
-          <CalcButton text="8" onClick={handleCalculate} mathObj={calcObj} />
-          <CalcButton text="9" onClick={handleCalculate} mathObj={calcObj} />
-          <CalcButton text="4" onClick={handleCalculate} mathObj={calcObj} />
-          <CalcButton text="5" onClick={handleCalculate} mathObj={calcObj} />
-          <CalcButton text="6" onClick={handleCalculate} mathObj={calcObj} />
-          <CalcButton text="1" onClick={handleCalculate} mathObj={calcObj} />
-          <CalcButton text="2" onClick={handleCalculate} mathObj={calcObj} />
-          <CalcButton text="3" onClick={handleCalculate} mathObj={calcObj} />
-          <CalcButton text="0" onClick={handleCalculate} mathObj={calcObj} />
+        <CalcButton text="AC" onClick={this.handleCalculate} mathObj={calcObj} />
+        <CalcButton text="+/-" onClick={this.handleCalculate} mathObj={calcObj} />
+        <CalcButton text="%" onClick={this.handleCalculate} mathObj={calcObj} />
+        <CalcButton text="7" onClick={this.handleCalculate} mathObj={calcObj} />
+        <CalcButton text="8" onClick={this.handleCalculate} mathObj={calcObj} />
+        <CalcButton text="9" onClick={this.handleCalculate} mathObj={calcObj} />
+        <CalcButton text="4" onClick={this.handleCalculate} mathObj={calcObj} />
+        <CalcButton text="5" onClick={this.handleCalculate} mathObj={calcObj} />
+        <CalcButton text="6" onClick={this.handleCalculate} mathObj={calcObj} />
+        <CalcButton text="1" onClick={this.handleCalculate} mathObj={calcObj} />
+        <CalcButton text="2" onClick={this.handleCalculate} mathObj={calcObj} />
+        <CalcButton text="3" onClick={this.handleCalculate} mathObj={calcObj} />
+        <CalcButton text="0" onClick={this.handleCalculate} mathObj={calcObj} />
           <div className="key-dot">
             <CalcButton text="." onClick={handleCalculate} mathObj={calcObj} />
             </div>
