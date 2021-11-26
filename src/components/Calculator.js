@@ -8,6 +8,12 @@ const Calculator = () => {
   const handleCalculate = (calcObj, text) => {
     setState(calculate(calcObj, text));
   };
+  handleCalculate(calcObj, text) {
+    this.setState({ calcObj: calculate(calcObj, text) });
+  }
+
+  render() {
+    const { calcObj } = this.state;
 
   let screen = '0';
   if (Object.keys(calcObj).length === 0 || (calcObj.total === null
