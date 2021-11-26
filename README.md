@@ -3,7 +3,7 @@
 > React based single page app.  
 
 # Demo Link
-[http://localhost:3000](http://localhost:3000)
+[Click here](https://my-math-app.netlify.app/)
 
 # Screenshot
 
@@ -40,6 +40,7 @@ React
 # Version Control System
 
 GIT
+
 
 # 👤 Authors
 
