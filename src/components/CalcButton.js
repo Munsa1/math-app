@@ -11,12 +11,6 @@ class CalcButton extends React.Component {
   handleClick() {
     const { text, onClick, mathObj } = this.props;
     onClick(mathObj, text);
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick() {
-    const { text, onClick, mathObj } = this.props;
-    onClick(mathObj, text);
   }
 
   render() {
@@ -29,8 +23,6 @@ class CalcButton extends React.Component {
 
 CalcButton.propTypes = {
   text: PropTypes.string.isRequired,
-  onClick: PropTypes.func.isRequired,
-  mathObj: PropTypes.objectOf(PropTypes.string).isRequired,
   onClick: PropTypes.func.isRequired,
   mathObj: PropTypes.objectOf(PropTypes.string).isRequired,
 };
