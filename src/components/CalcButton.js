@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class CalculatorBtn extends React.Component {
+class CalcButton extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -21,10 +21,10 @@ class CalculatorBtn extends React.Component {
   }
 }
 
-CalculatorBtn.propTypes = {
+CalcButton.propTypes = {
   text: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
   mathObj: PropTypes.objectOf(PropTypes.string).isRequired,
 };
 
-export default CalculatorBtn;
+export default CalcButton;

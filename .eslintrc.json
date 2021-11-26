@@ -20,14 +20,6 @@
     "import/no-unresolved": "off",
     "no-shadow": "off"
   },
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx"],
-        "paths": ["./src"]
-      }
-    }
-  },
   "ignorePatterns": [
     "dist/",
     "build/"
