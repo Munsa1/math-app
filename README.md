@@ -3,7 +3,7 @@
 > React based single page app.  
 
 # Demo Link
-[Click here](https://my-math-app.netlify.app/)
+[Click here]()
 
 # Screenshot
 
