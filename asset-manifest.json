@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/math-app/static/css/main.eb20ff50.chunk.css",
+    "main.js": "/math-app/static/js/main.50c0b4c2.chunk.js",
+    "main.js.map": "/math-app/static/js/main.50c0b4c2.chunk.js.map",
+    "runtime-main.js": "/math-app/static/js/runtime-main.64601390.js",
+    "runtime-main.js.map": "/math-app/static/js/runtime-main.64601390.js.map",
+    "static/js/2.966afb6b.chunk.js": "/math-app/static/js/2.966afb6b.chunk.js",
+    "static/js/2.966afb6b.chunk.js.map": "/math-app/static/js/2.966afb6b.chunk.js.map",
+    "static/js/3.7c4701cc.chunk.js": "/math-app/static/js/3.7c4701cc.chunk.js",
+    "static/js/3.7c4701cc.chunk.js.map": "/math-app/static/js/3.7c4701cc.chunk.js.map",
+    "index.html": "/math-app/index.html",
+    "static/css/main.eb20ff50.chunk.css.map": "/math-app/static/css/main.eb20ff50.chunk.css.map",
+    "static/js/2.966afb6b.chunk.js.LICENSE.txt": "/math-app/static/js/2.966afb6b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64601390.js",
+    "static/js/2.966afb6b.chunk.js",
+    "static/css/main.eb20ff50.chunk.css",
+    "static/js/main.50c0b4c2.chunk.js"
+  ]
+}
